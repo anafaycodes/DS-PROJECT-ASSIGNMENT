@@ -20,10 +20,10 @@ CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
-    Email VARCHAR(100),
-    Address VARCHAR(255),
-    City VARCHAR(100),
-    Country VARCHAR(100)
+    Email VARCHAR(50),
+    Address VARCHAR(150),
+    City VARCHAR(25),
+    Country VARCHAR(75)
 );
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
@@ -45,7 +45,7 @@ CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
-    Title VARCHAR(100),
+    Title VARCHAR(50),
     HireDate DATE,
     Salary DECIMAL(10, 2)
 );
